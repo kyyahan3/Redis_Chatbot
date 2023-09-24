@@ -35,10 +35,10 @@ database:<div></div>
 <img src="screenshots/db_get_user_info.png" alt="db_3. get info about a user" width="150" height="20"/>
 
 ### channel operations
-Users can subscribe or unsubscribe a channel using option 4 and 5 respectively. Below is a demo of it and using `!channle` command to get a list of channels the user has subscribed. 
+Users can subscribe or unsubscribe a channel using option 4 and 5 respectively. Below is a demo of it and using `!channle` command to get a list of channels the user has subscribed. <div></div>
 <img src="screenshots/ui_channel.png" alt="ui_4/5. channel" width="260" height="440"/>
 
-database:
+database:<div></div>
 <img src="screenshots/db_channel.png" alt="db_4/5. channel" width="260" height="50"/>
 
 
