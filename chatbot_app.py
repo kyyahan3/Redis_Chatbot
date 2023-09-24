@@ -140,7 +140,7 @@ if __name__ == "__main__":
     
 ------------------------------------
     Options:
-    1. Identify yoursel
+    1. Identify yourself
     2. Update your profile
     3. Get info about a user
     4. Join a channel
