@@ -1,0 +1,247 @@
+{
+  "New York": {
+    "temperature": 86.5,
+    "humidity": 75,
+    "conditions": "Cloudy"
+  },
+  "Los Angeles": {
+    "temperature": 83.3,
+    "humidity": 34,
+    "conditions": "Sunny"
+  },
+  "Chicago": {
+    "temperature": 97.6,
+    "humidity": 38,
+    "conditions": "Cloudy"
+  },
+  "Houston": {
+    "temperature": 55.6,
+    "humidity": 74,
+    "conditions": "Snowy"
+  },
+  "Phoenix": {
+    "temperature": 61.4,
+    "humidity": 72,
+    "conditions": "Sunny"
+  },
+  "Philadelphia": {
+    "temperature": 94.5,
+    "humidity": 32,
+    "conditions": "Snowy"
+  },
+  "San Antonio": {
+    "temperature": 88.1,
+    "humidity": 52,
+    "conditions": "Rainy"
+  },
+  "San Diego": {
+    "temperature": 57.5,
+    "humidity": 59,
+    "conditions": "Partly Cloudy"
+  },
+  "Dallas": {
+    "temperature": 85.0,
+    "humidity": 22,
+    "conditions": "Partly Cloudy"
+  },
+  "San Jose": {
+    "temperature": 63.6,
+    "humidity": 33,
+    "conditions": "Snowy"
+  },
+  "Austin": {
+    "temperature": 81.7,
+    "humidity": 88,
+    "conditions": "Partly Cloudy"
+  },
+  "Jacksonville": {
+    "temperature": 99.7,
+    "humidity": 53,
+    "conditions": "Rainy"
+  },
+  "Fort Worth": {
+    "temperature": 68.6,
+    "humidity": 50,
+    "conditions": "Partly Cloudy"
+  },
+  "Columbus": {
+    "temperature": 87.2,
+    "humidity": 25,
+    "conditions": "Rainy"
+  },
+  "Charlotte": {
+    "temperature": 60.3,
+    "humidity": 43,
+    "conditions": "Rainy"
+  },
+  "Indianapolis": {
+    "temperature": 70.4,
+    "humidity": 40,
+    "conditions": "Rainy"
+  },
+  "Seattle": {
+    "temperature": 83.1,
+    "humidity": 36,
+    "conditions": "Cloudy"
+  },
+  "Denver": {
+    "temperature": 57.1,
+    "humidity": 48,
+    "conditions": "Rainy"
+  },
+  "Washington": {
+    "temperature": 80.7,
+    "humidity": 73,
+    "conditions": "Cloudy"
+  },
+  "Boston": {
+    "temperature": 98.5,
+    "humidity": 43,
+    "conditions": "Cloudy"
+  },
+  "El Paso": {
+    "temperature": 56.8,
+    "humidity": 29,
+    "conditions": "Partly Cloudy"
+  },
+  "Nashville": {
+    "temperature": 76.4,
+    "humidity": 27,
+    "conditions": "Cloudy"
+  },
+  "Oklahoma City": {
+    "temperature": 88.4,
+    "humidity": 75,
+    "conditions": "Snowy"
+  },
+  "Las Vegas": {
+    "temperature": 99.8,
+    "humidity": 46,
+    "conditions": "Snowy"
+  },
+  "Detroit": {
+    "temperature": 94.1,
+    "humidity": 71,
+    "conditions": "Sunny"
+  },
+  "Portland": {
+    "temperature": 99.1,
+    "humidity": 64,
+    "conditions": "Cloudy"
+  },
+  "Memphis": {
+    "temperature": 96.6,
+    "humidity": 79,
+    "conditions": "Snowy"
+  },
+  "Louisville": {
+    "temperature": 91.3,
+    "humidity": 50,
+    "conditions": "Cloudy"
+  },
+  "Milwaukee": {
+    "temperature": 58.6,
+    "humidity": 68,
+    "conditions": "Cloudy"
+  },
+  "Baltimore": {
+    "temperature": 87.3,
+    "humidity": 74,
+    "conditions": "Partly Cloudy"
+  },
+  "Albuquerque": {
+    "temperature": 63.5,
+    "humidity": 87,
+    "conditions": "Snowy"
+  },
+  "Tucson": {
+    "temperature": 73.2,
+    "humidity": 90,
+    "conditions": "Rainy"
+  },
+  "Fresno": {
+    "temperature": 59.5,
+    "humidity": 60,
+    "conditions": "Cloudy"
+  },
+  "Mesa": {
+    "temperature": 85.1,
+    "humidity": 86,
+    "conditions": "Rainy"
+  },
+  "Sacramento": {
+    "temperature": 94.4,
+    "humidity": 40,
+    "conditions": "Snowy"
+  },
+  "Atlanta": {
+    "temperature": 51.1,
+    "humidity": 48,
+    "conditions": "Rainy"
+  },
+  "Kansas City": {
+    "temperature": 94.1,
+    "humidity": 67,
+    "conditions": "Snowy"
+  },
+  "Colorado Springs": {
+    "temperature": 68.6,
+    "humidity": 72,
+    "conditions": "Sunny"
+  },
+  "Miami": {
+    "temperature": 93.5,
+    "humidity": 83,
+    "conditions": "Rainy"
+  },
+  "Raleigh": {
+    "temperature": 83.8,
+    "humidity": 45,
+    "conditions": "Partly Cloudy"
+  },
+  "Omaha": {
+    "temperature": 92.1,
+    "humidity": 28,
+    "conditions": "Rainy"
+  },
+  "Long Beach": {
+    "temperature": 56.4,
+    "humidity": 24,
+    "conditions": "Cloudy"
+  },
+  "Virginia Beach": {
+    "temperature": 62.9,
+    "humidity": 44,
+    "conditions": "Sunny"
+  },
+  "Oakland": {
+    "temperature": 77.9,
+    "humidity": 41,
+    "conditions": "Rainy"
+  },
+  "Minneapolis": {
+    "temperature": 84.2,
+    "humidity": 83,
+    "conditions": "Partly Cloudy"
+  },
+  "Tampa": {
+    "temperature": 63.1,
+    "humidity": 54,
+    "conditions": "Cloudy"
+  },
+  "Tulsa": {
+    "temperature": 75.9,
+    "humidity": 40,
+    "conditions": "Partly Cloudy"
+  },
+  "Arlington": {
+    "temperature": 84.9,
+    "humidity": 49,
+    "conditions": "Rainy"
+  },
+  "New Orleans": {
+    "temperature": 67.3,
+    "humidity": 51,
+    "conditions": "Sunny"
+  }
+}
