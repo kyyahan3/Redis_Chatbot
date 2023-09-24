@@ -12,15 +12,7 @@ I use HASH to store user information because we have multiple kinds of informati
 >note: There are other available commands in redis-cli to play with, such as `KEYS *` and `DBSIZE`
 
 ## Functionalities
-- Options:
-    1. Identify yourself
-    2. Update your profile
-    3. Get info about a user
-    4. Join a channel
-    5. Leave a channel
-    6. Send a message to a channel 
-    7. Read messages from a channel
-    8. Exit
+- Options:<div></div>1. Identify yourself<div></div>2. Update your profile<div></div>3. Get info about a user<div></div>4. Join a channel<div></div>5. Leave a channel<div></div>6. Send a message to a channel <div></div>7. Read messages from a channel<div></div>8. Exit
 
 - Commands:
     ```
