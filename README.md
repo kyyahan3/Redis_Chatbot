@@ -48,5 +48,5 @@ Enter option 6 or 7 to send or read message(s). I use the `pubsub.get_message()`
 <img src="screenshots/ui_read_message.png" alt="read message in channel" width="350" height="100"/>
 <img src="screenshots/ui_send_message.png" alt="ui_6/7. send message in channel" width="490" height="70"/>
 
-database:
+database:<div></div>
 <img src="screenshots/db_message.png" alt="messages in channel on db end" width="390" height="110"/>
