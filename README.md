@@ -3,10 +3,19 @@
 -	Through practice, obtaining a solid understanding of related concepts such as real-time messaging, Redis Pub/Sub, and integrating Redis with Python
 -	Interacting with Docker containers and becoming proficient in the use of docker-compose
 
-## Database management
-I use HASH to store user information because we have multiple kinds of information for one user to record. I also used a set to store all the user names for fast look-up. 
+## Configuration
+### container
+```
+docker-compose up -d
+docker-compose exec <service_name> <interface>
+```
+service_name: python and redis
+interface: bash and redis-cli
 
-## Monitoring with redis-cli
+### run chatbot interface
+`python chatbot_app`
+
+### Moniter using redis-cli
 1. Ensure Redis server is running.
 2. Open a terminal and run the following command
 ```
@@ -14,6 +23,9 @@ I use HASH to store user information because we have multiple kinds of informati
     MONITOR
  ```
 >note: There are other available commands in redis-cli to play with, such as `KEYS *` and `DBSIZE`
+
+## Database management
+I use HASH to store user information because we have multiple kinds of information for one user to record. I also used a set to store all the user names for fast look-up. 
 
 ## Functionalities
 - Options:<div></div>1. Identify yourself<div></div>2. Update your profile<div></div>3. Get info about a user<div></div>4. Join a channel<div></div>5. Leave a channel<div></div>6. Send a message to a channel <div></div>7. Read messages from a channel<div></div>8. Exit
