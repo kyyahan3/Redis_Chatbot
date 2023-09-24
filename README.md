@@ -12,6 +12,22 @@ I use HASH to store user information because we have multiple kinds of informati
 >note: There are other available commands in redis-cli to play with, such as `KEYS *` and `DBSIZE`
 
 ## Functionalities
+- Options:
+    1. Identify yourself
+    2. Update your profile
+    3. Get info about a user
+    4. Join a channel
+    5. Leave a channel
+    6. Send a message to a channel 
+    7. Read messages from a channel
+    8. Exit
+- Commands:
+      !help: List of commands
+      !weather <city>: Weather update
+      !fact: Show a random fun fact
+      !whoami: Show your user information
+      !channels: list all the channels the user subscribed
+    
 ### user log in
 a `username_set` is used to store all the user names for fast search, so when the user tries to log in, we just need to check if the name is in the set, which only takes O(1) time. Enter option 1 to log in. If the username is not in the username database, a new user will be created, and ask the user to input some information (see the user profile part). Below is the interaction in the user interface (left) and db (right).
 
@@ -31,8 +47,7 @@ database:
 
 - Choose option 3 to get the other users' information. This uses `HGETALL` in our redis database to retrieve the values in hash. <div></div>
 <img src="screenshots/ui_get_user_info.png" alt="ui_3. get info about a user" width="330" height="220"/><div></div>
-database:<div></div>
-<img src="screenshots/db_get_user_info.png" alt="db_3. get info about a user" width="150" height="20"/>
+database:<div></div><img src="screenshots/db_get_user_info.png" alt="db_3. get info about a user" width="150" height="20"/>
 
 ### channel operations
 Users can subscribe or unsubscribe from a channel using options 4 and 5 respectively. Below is a demo of it and using `!channle` command to get a list of channels the user has subscribed to. <div></div>
@@ -50,3 +65,6 @@ Enter option 6 or 7 to send or read message(s). I use the `pubsub.get_message()`
 
 database:<div></div>
 <img src="screenshots/db_message.png" alt="messages in channel on db end" width="390" height="110"/>
+
+### The other commands
+
