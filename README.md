@@ -1,3 +1,7 @@
+## Purpose 
+-	Creating a simple chatbot using Redis's Pub/Sub mechanism 
+-	Through practice, obtaining a solid understanding of related concepts such as real-time messaging, Redis Pub/Sub, and integrating Redis with Python
+-	Interacting with Docker containers and becoming proficient in the use of docker-compose
 
 ## Database management
 I use HASH to store user information because we have multiple kinds of information for one user to record. I also used a set to store all the user names for fast look-up. 
