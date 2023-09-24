@@ -35,19 +35,14 @@ I use HASH to store user information because we have multiple kinds of informati
 ### user log in
 a `username_set` is used to store all the user names for fast search, so when the user tries to log in, we just need to check if the name is in the set, which only takes O(1) time. Enter option 1 to log in. If the username is not in the username database, a new user will be created, and ask the user to input some information (see the user profile part). Below is the interaction in the user interface (left) and db (right).
 
-<img src="screenshots/ui_identify.png" alt="ui_1. identify yourself" width="190" height="44"/>
+<img src="screenshots/ui_identify.png" alt="ui_1. identify yourself" width="200" height="46"/>
 
 <img src="screenshots/db_identify.png" alt="db_1. identify yourself" width="250" height="18"/>
 
 ### user inoformation
-- Choose option 2 to update the user information or create a new user. If the username does not exist in the database, we will create a new one. <div></div>
-user interface:
-<img src="screenshots/ui_create_new_profile.png" alt="ui_2. update profile" width="600" height="210"/>
-database:
-<img src="screenshots/db_create_new_profile.png" alt="db_2. update profile" width="560" height="55"/>
+- Choose option 2 to update the user information or create a new user. If the username does not exist in the database, we will create a new one. <div></div>user interface:<div></div><img src="screenshots/ui_create_new_profile.png" alt="ui_2. update profile" width="600" height="270"/><div></div>database:<div></div><img src="screenshots/db_create_new_profile.png" alt="db_2. update profile" width="560" height="70"/>
 
-- Once the user logged in, they can use the command `!whoami` to show their own profile.<div></div>
-<img src="screenshots/cmd_whoami.png" alt="whoami" width="180" height="70"/>
+- Once the user logged in, they can use the command `!whoami` to show their own profile.<div></div><img src="screenshots/cmd_whoami.png" alt="whoami" width="220" height="90"/>
 
 - Choose option 3 to get the other users' information. This uses `HGETALL` in our redis database to retrieve the values in hash. <div></div>
 <img src="screenshots/ui_get_user_info.png" alt="ui_3. get info about a user" width="330" height="220"/><div></div>
@@ -58,7 +53,7 @@ Users can subscribe or unsubscribe from a channel using options 4 and 5 respecti
 <img src="screenshots/ui_channel.png" alt="ui_4/5. channel" width="260" height="440"/>
 
 database:<div></div>
-<img src="screenshots/db_channel.png" alt="db_4/5. channel" width="260" height="50"/>
+<img src="screenshots/db_channel.png" alt="db_4/5. channel" width="300" height="50"/>
 
 
 ### pubsub message in Redis
