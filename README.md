@@ -9,7 +9,7 @@
 docker-compose up -d
 docker-compose exec <service_name> <interface>
 ```
-service_name: python and redis<div></div>
+service_name: python and redis <div></div>
 interface: bash and redis-cli
 
 ### run chatbot interface
